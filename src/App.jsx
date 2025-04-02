@@ -26,21 +26,15 @@ const importedTextureList = [
 
 // Define the grid layout positions (when expanded)
 const expandedPositions = [
-  // Row 1
   [0, 1, 0], [2, 1, 0], [4, 1, 0],
-  // Row 2
   [0, -1, 0], [2, -1, 0], [4, -1, 0],
-  // Row 3
   [0, -3, 0], [2, -3, 0], [4, -3, 0]
 ];
 
 // Define the contracted positions (forming a 3x3 grid with no gaps)
 const contractedPositions = [
-  // Row 1
   [0, 1, 0], [1, 1, 0], [2, 1, 0],
-  // Row 2
   [0, 0, 0], [1, 0, 0], [2, 0, 0],
-  // Row 3
   [0, -1, 0], [1, -1, 0], [2, -1, 0]
 ];
 
